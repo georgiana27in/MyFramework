@@ -4,49 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1408554e-5b60-424f-ae22-33abcfeaa3ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/QA.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_15-06-2023 15-34-33.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/spark/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/spark/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/spark/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/spark/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/spark/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/spark/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/spark/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/spark/jsontree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/spark/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/spark/spark-script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/spark/spark-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Base/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Runner/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Stepdefinitions/StepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/T_cases/TC_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/T_cases/TC_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/T_cases/TC_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/T_cases/TC_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/T_cases/TC_5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Homepage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/NewaccountPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/SignInPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/adaugainCosPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/logoutPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/produseBaieti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/produseColectii.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/produseFetite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/produseGravide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/produseNoutati.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/produseofertespeciale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/testing.xml.properties" afterDir="false" />
-    </list>
+    <list default="true" id="1408554e-5b60-424f-ae22-33abcfeaa3ac" name="Changes" comment="first part of the project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,17 +44,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/GEORGIANA/IdeaProjects/MyFramework",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/GEORGIANA/IdeaProjects/MyFramework&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="TestNG.TC_1.searchingthrough">
     <configuration name="Homepage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pages.Homepage" />
@@ -164,7 +122,26 @@
       <option name="presentableId" value="Default" />
       <updated>1686766288803</updated>
     </task>
+    <task id="LOCAL-00001" summary="first part of the project">
+      <created>1686844758850</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686844758850</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
