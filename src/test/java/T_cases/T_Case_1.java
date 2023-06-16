@@ -5,17 +5,10 @@ import com.aventstack.extentreports.Status;
 import org.testng.annotations.Test;
 import pages.Homepage;
 import pages.SignInPage;
-import pages.produseFetite;
 import utils.Utils;
 import pages.logoutPage;
-import pages.produseBaieti;
-import pages.produseGravide;
-import pages.produseNoutati;
 
-
-import static Base.TestBase.openURL;
-
-public class TC_1 extends TestBase {
+public class T_Case_1 extends TestBase {
 
     @Test()
     public void login_andlogout(){
