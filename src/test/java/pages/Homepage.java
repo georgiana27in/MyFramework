@@ -15,7 +15,7 @@ public class Homepage {
     public static By OFspecialeBtn = By.cssSelector("ul#megamenu  a[title='Oferte speciale']");
     public static By noutatiBtn = By.cssSelector("ul#megamenu  a[title='Noutati']");
     public static By BranduriBtn = By.cssSelector("a[title='Branduri']");
-    public static By returntoHomePage = By.cssSelector("a#logo");
+    public static By returntoHomePage = By.xpath("/html//div[@id='header']/div[@class='inner']//a[@title='Nichiduta']");
 }
 
 

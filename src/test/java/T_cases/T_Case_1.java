@@ -17,8 +17,8 @@ public class T_Case_1 extends TestBase {
                 .assignAuthor("NiculaeGeorgiana");
         logger.info("Verify URL");
         openURL("https://www.nichiduta.ro/");
-        Utils.waitForElementVisible(Homepage.RETURNbtn);
-        Utils.clickOnButton(Homepage.RETURNbtn);
+//        Utils.waitForElementVisible(Homepage.RETURNbtn);
+//        Utils.clickOnButton(Homepage.RETURNbtn);
         Utils.waitForElementVisible(Homepage.accountBtn);
         Utils.clickOnButton(Homepage.accountBtn);
         Utils.waitForElementToBeClickable(Homepage.intraINcontBtn);

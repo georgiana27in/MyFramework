@@ -57,6 +57,7 @@ Thread.sleep(20000);
 
     }}
 // still working on this one//
+// raman produse in cos , de vazut cum reusesc sa sterg din cos , apare o ferastra pe care nu o pot accesa/
 /*
         Utils.waitForElementVisible(Homepage.gravideBtn);
         Utils.clickOnButton(Homepage.gravideBtn);

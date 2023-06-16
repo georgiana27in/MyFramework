@@ -43,10 +43,10 @@ public class TestBase {
     public static String reportDestination = "reports/report_" + dt + ".html";
     protected final Logger logger = LogManager.getLogger(getClass());
 
-
     @BeforeSuite(alwaysRun = true)
     public void setUp() throws IOException {
         propertiesLoad();
+
         extentReportSpark();
         openBrowser();
     }

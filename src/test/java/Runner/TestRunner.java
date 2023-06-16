@@ -8,7 +8,7 @@ import io.cucumber.junit.Cucumber;
 
 @CucumberOptions(
         features = "src/test/java/features/login.feature", //the path of the feature files
-        glue={"stepDefinitions"}, //the path of the step definition files
+        glue={"Stepdefinitions"}, //the path of the step definition files
         plugin = {"pretty","json:target/cucumber-reports/reports.json",
 
                 "junit:target/cucumber-reports/Cucumber.xml",
