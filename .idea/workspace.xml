@@ -4,36 +4,61 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1408554e-5b60-424f-ae22-33abcfeaa3ac" name="Changes" comment="first part of the project">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_15-06-2023 20-17-02.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_15-06-2023 20-22-09.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_15-06-2023 20-23-43.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_15-06-2023 20-26-07.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_15-06-2023 20-27-52.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_15-06-2023 20-58-43.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_15-06-2023 21-01-47.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_16-06-2023 10-06-00.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_16-06-2023 10-07-26.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_16-06-2023 10-08-41.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_16-06-2023 10-22-03.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_16-06-2023 10-23-22.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_16-06-2023 10-25-59.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_16-06-2023 10-27-41.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_16-06-2023 10-31-18.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/T_cases/T_Case_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/T_cases/T_Case_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/testing.xml" afterDir="false" />
+    <list default="true" id="1408554e-5b60-424f-ae22-33abcfeaa3ac" name="Changes" comment="another part of it">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/T_cases/TC_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/T_cases/T_Case_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/T_cases/TC_2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/T_cases/TC_3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/T_cases/TC_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/T_cases/T_Case_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/T_cases/TC_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/T_cases/T_Case_5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Homepage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/adaugainCosPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/adaugainCosPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/produseNoutati.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/produseNoutati.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/testing.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_15-06-2023 15-34-33.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_15-06-2023 15-37-21.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_15-06-2023 15-38-58.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_15-06-2023 15-41-25.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_15-06-2023 15-47-39.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_15-06-2023 16-13-37.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_15-06-2023 16-14-50.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_15-06-2023 16-16-17.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_15-06-2023 20-17-02.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_15-06-2023 20-22-09.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_15-06-2023 20-23-43.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_15-06-2023 20-26-07.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_15-06-2023 20-27-52.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_15-06-2023 20-58-43.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_15-06-2023 21-01-47.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_16-06-2023 10-06-00.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_16-06-2023 10-07-26.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_16-06-2023 10-08-41.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_16-06-2023 10-22-03.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_16-06-2023 10-23-22.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_16-06-2023 10-25-59.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_16-06-2023 10-27-41.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_16-06-2023 10-31-18.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_16-06-2023 10-33-22.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_16-06-2023 10-35-03.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_16-06-2023 10-36-40.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_16-06-2023 10-38-38.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_16-06-2023 10-41-35.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_16-06-2023 10-45-24.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_16-06-2023 10-46-35.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_16-06-2023 10-54-28.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_16-06-2023 10-58-35.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_16-06-2023 11-00-58.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_16-06-2023 11-02-24.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_16-06-2023 11-04-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_16-06-2023 11-07-36.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_16-06-2023 11-13-05.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_16-06-2023 11-13-52.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_16-06-2023 11-14-29.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_16-06-2023 11-15-30.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_16-06-2023 11-22-22.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_16-06-2023 11-26-19.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/spark/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/reports/spark/FontAwesome.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/spark/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/reports/spark/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/spark/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/reports/spark/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/spark/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/reports/spark/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/spark/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/reports/spark/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/spark/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/reports/spark/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/spark/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/reports/spark/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/spark/jsontree.js" beforeDir="false" afterPath="$PROJECT_DIR$/reports/spark/jsontree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/spark/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/reports/spark/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/spark/spark-script.js" beforeDir="false" afterPath="$PROJECT_DIR$/reports/spark/spark-script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/spark/spark-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/reports/spark/spark-style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686846466989</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="another part of it">
+      <created>1686904159331</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686904159331</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,7 +272,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -249,6 +293,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first part of the project" />
-    <option name="LAST_COMMIT_MESSAGE" value="first part of the project" />
+    <MESSAGE value="another part of it" />
+    <option name="LAST_COMMIT_MESSAGE" value="another part of it" />
   </component>
 </project>
