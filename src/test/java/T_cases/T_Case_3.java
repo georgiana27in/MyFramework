@@ -17,7 +17,9 @@ public class T_Case_3 extends TestBase {
                 .assignAuthor("NiculaeGeorgiana");
         logger.info("Verify URL");
         openURL("https://www.nichiduta.ro/");
-        Utils.waitForElementToBeClickable(Homepage.accountBtn);
+        Utils.waitForElementToBeClickable(Homepage.returntoHomePage);
+        Utils.clickOnButton(Homepage.returntoHomePage);
+        Utils.waitForElementVisible(Homepage.accountBtn);
         Utils.clickOnButton(Homepage.accountBtn);
         Utils.waitForElementToBeClickable(Homepage.intraINcontBtn);
         Utils.clickOnButton(Homepage.intraINcontBtn);
@@ -37,28 +39,12 @@ public class T_Case_3 extends TestBase {
         test.log(Status.INFO, "Click on Sign in Button");
         logger.info("Click on Sign in Button");
 
+//        Utils.waitForElementVisible(adaugainCosPage.cartbtn);
+//        Utils.clickOnButton(adaugainCosPage.cartbtn);
+//        Utils.waitForElementToBeClickable(adaugainCosPage.deletefromcart);
+//        Utils.clickOnButton(adaugainCosPage.deletefromcart);
+//        driver.switchTo().alert().accept();
 
-        Utils.waitForElementVisible(Homepage.gravideBtn);
-        Utils.clickOnButton(Homepage.gravideBtn);
-        Utils.waitForElementLocated(produseGravide.produs1);
-        Utils.clickOnButton(produseGravide.produs1);
-        Utils.waitForElementVisible(adaugainCosPage.addcartp1);
-        Utils.clickOnButton(adaugainCosPage.addcartp1);
-        test.log(Status.INFO, "Click on Gravide section , then click on 1st product and put it in the cart");
-        logger.info("Click on Gravide section , then click on 1st product and put it in the cart");
-
-        Utils.waitForElementVisible(adaugainCosPage.cartbtn);
-        Utils.clickOnButton(adaugainCosPage.cartbtn);
-        Utils.waitForElementVisible(adaugainCosPage.deletefromcart);
-        Utils.clickOnButton(adaugainCosPage.deletefromcart);
-
-Thread.sleep(20000);
-
-
-    }}
-// still working on this one//
-// raman produse in cos , de vazut cum reusesc sa sterg din cos , apare o ferastra pe care nu o pot accesa/
-/*
         Utils.waitForElementVisible(Homepage.gravideBtn);
         Utils.clickOnButton(Homepage.gravideBtn);
         Utils.waitForElementLocated(produseGravide.produs1);
@@ -95,7 +81,9 @@ Thread.sleep(20000);
         test.log(Status.INFO, "Click on Gravide section , then click on 4th product and put it in the cart");
         logger.info("Click on Gravide section , then click on 4th product and put it in the cart");
 
-*/
+
+
+    }}
 
 
 
