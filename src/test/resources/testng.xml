@@ -11,7 +11,7 @@
         <class name="T_cases.T_Case_2"/>
     </classes>
 </test>
-    <test name="Chrometest" enabled="true">
+    <test name="Chrometest1" enabled="true">
         <classes>
             <class name="T_cases.T_Case_3"/>
         </classes>
