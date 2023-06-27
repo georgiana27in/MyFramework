@@ -28,7 +28,7 @@ public class Utils extends TestBase {
 
     public static void clickOnButton(By locator) {
         Wait<WebDriver> wait = new FluentWait<>(driver)
-                .withTimeout(Duration.ofSeconds(30))
+                .withTimeout(Duration.ofSeconds(60))
                 .ignoring(NoSuchElementException.class);
         WebElement element = driver.findElement(locator);
         element.click();

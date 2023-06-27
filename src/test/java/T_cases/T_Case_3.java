@@ -3,83 +3,77 @@ package T_cases;
 import Base.TestBase;
 import com.aventstack.extentreports.Status;
 import org.testng.annotations.Test;
-import pages.Homepage;
-import pages.SignInPage;
-import pages.adaugainCosPage;
-import pages.produseGravide;
+import pages.*;
 import utils.Utils;
 
 public class T_Case_3 extends TestBase {
     @Test
     public void putproductstocart() throws InterruptedException {
-        test = extent.createTest("Putting products to cart", "Case3 : User verifies if he can log in and put products to cart")
+        test = extent.createTest(" Log in ;Putting products to cart ; Log out", "Case3 : User verifies if he can log in and put products to cart")
                 .assignCategory("Functional.testcase")
                 .assignAuthor("NiculaeGeorgiana");
         logger.info("Verify URL");
         openURL("https://www.nichiduta.ro/");
-        Utils.waitForElementToBeClickable(Homepage.returntoHomePage);
         Utils.clickOnButton(Homepage.returntoHomePage);
-        Utils.waitForElementVisible(Homepage.accountBtn);
         Utils.clickOnButton(Homepage.accountBtn);
-        Utils.waitForElementToBeClickable(Homepage.intraINcontBtn);
         Utils.clickOnButton(Homepage.intraINcontBtn);
         test.log(Status.INFO, "Click on Account button and click on enter account button ");
         logger.info("Click on Account button and click on enter account button ");
 
-        Utils.waitForElementVisible(SignInPage.email);
         Utils.enterText(SignInPage.email, "georgianatest16@gmail.com");
         test.log(Status.INFO, "Add e-mail");
         logger.info("Add e-mail");
-        Utils.waitForElementVisible(SignInPage.password);
         Utils.enterText(SignInPage.password, "testpaSS@.");
         test.log(Status.INFO, "Add password");
         logger.info("Add password");
-        Utils.waitForElementVisible(SignInPage.signinBtn);
         Utils.clickOnButton(SignInPage.signinBtn);
         test.log(Status.INFO, "Click on Sign in Button");
         logger.info("Click on Sign in Button");
 
-        Utils.waitForElementVisible(adaugainCosPage.cartbtn);
-        Utils.clickOnButton(adaugainCosPage.cartbtn);
-        Utils.waitForElementToBeClickable(adaugainCosPage.deletefromcart);
-        Utils.clickOnButton(adaugainCosPage.deletefromcart);
-        driver.switchTo().alert().accept();
 
-        Utils.waitForElementVisible(Homepage.gravideBtn);
         Utils.clickOnButton(Homepage.gravideBtn);
-        Utils.waitForElementLocated(produseGravide.produs1);
         Utils.clickOnButton(produseGravide.produs1);
-        Utils.waitForElementVisible(adaugainCosPage.addcartp1);
         Utils.clickOnButton(adaugainCosPage.addcartp1);
         test.log(Status.INFO, "Click on Gravide section , then click on 1st product and put it in the cart");
         logger.info("Click on Gravide section , then click on 1st product and put it in the cart");
 
-        Utils.waitForElementVisible(Homepage.gravideBtn);
-        Utils.clickOnButton(Homepage.gravideBtn);
+        Utils.clickOnButton(adaugainCosPage.cartbtn);
+        Utils.clickOnButton(adaugainCosPage.deletefromcart);
+        driver.switchTo().alert().accept();
+        test.log(Status.INFO, "delete first product prom cart");
+        logger.info("Delete first product from cart");
 
+        Utils.clickOnButton(Homepage.gravideBtn);
         Utils.clickOnButton(produseGravide.produs2);
-        Utils.waitForElementVisible(adaugainCosPage.addcartp2);
         Utils.clickOnButton(adaugainCosPage.addcartp2);
         test.log(Status.INFO, "Click on Gravide section , then click on 2nd product and put it in the cart");
         logger.info("Click on Gravide section , then click on 2nd product and put it in the cart");
 
+        Utils.clickOnButton(adaugainCosPage.cartbtn);
+        Utils.clickOnButton(adaugainCosPage.deletefromcart);
+        driver.switchTo().alert().accept();
+        test.log(Status.INFO, "delete second product prom cart");
+        logger.info("Delete second product from cart");
+
         Utils.waitForElementVisible(Homepage.gravideBtn);
         Utils.clickOnButton(Homepage.gravideBtn);
         Utils.clickOnButton(produseGravide.produs3);
-        Utils.waitForElementVisible(adaugainCosPage.addcartp3);
         Utils.clickOnButton(adaugainCosPage.addcartp3);
         test.log(Status.INFO, "Click on Gravide section , then click on 3rd product and put it in the cart");
         logger.info("Click on Gravide section , then click on 3rd product and put it in the cart");
 
-        Utils.waitForElementVisible(Homepage.gravideBtn);
-        Utils.clickOnButton(Homepage.gravideBtn);
-        Utils.waitForElementVisible(adaugainCosPage.cartbtn);
         Utils.clickOnButton(adaugainCosPage.cartbtn);
-        Utils.waitForElementVisible(adaugainCosPage.deletefromcart);
         Utils.clickOnButton(adaugainCosPage.deletefromcart);
         driver.switchTo().alert().accept();
+        test.log(Status.INFO, "delete third product prom cart");
+        logger.info("Delete third product from cart");
 
-
+        Utils.clickOnButton(logoutPage.accountBtn);
+        test.log(Status.INFO, "Return to account detais page");
+        logger.info("Return to account detais page");
+        Utils.clickOnButton(logoutPage.logOutBtn);
+        test.log(Status.INFO, "Click on log out button");
+        logger.info("Click on log out button");
     }}
 
 
