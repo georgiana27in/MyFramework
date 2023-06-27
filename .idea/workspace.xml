@@ -5,21 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1408554e-5b60-424f-ae22-33abcfeaa3ac" name="Changes" comment="Gerkin testcases">
-      <change afterPath="$PROJECT_DIR$/reports/report_20-06-2023 20-19-46.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_20-06-2023 20-27-05.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_20-06-2023 20-29-39.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_20-06-2023 20-31-54.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_20-06-2023 20-34-14.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_20-06-2023 20-35-43.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_20-06-2023 20-36-50.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_20-06-2023 20-37-43.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_20-06-2023 20-38-49.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_20-06-2023 20-40-26.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_20-06-2023 20-43-07.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_20-06-2023 20-44-44.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/report_22-06-2023 19-50-18.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/report_22-06-2023 19-52-34.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/report_22-06-2023 19-57-40.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/report_22-06-2023 20-00-26.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/report_22-06-2023 20-03-33.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/report_22-06-2023 20-04-55.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/report_22-06-2023 20-18-15.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/report_22-06-2023 20-21-11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/report_22-06-2023 20-22-40.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/report_22-06-2023 20-25-24.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/report_22-06-2023 20-27-29.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/report_22-06-2023 20-29-32.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/report_22-06-2023 20-32-50.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/report_22-06-2023 20-36-35.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/report_22-06-2023 20-38-36.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/report_22-06-2023 20-41-38.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/report_22-06-2023 20-52-04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/report_22-06-2023 20-54-21.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/report_22-06-2023 20-56-04.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/T_cases/T_Case_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/T_cases/T_Case_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/T_cases/T_Case_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/T_cases/T_Case_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/testing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/produseGravide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/produseGravide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +102,12 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.T_Case_3.putproductstocart">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\GEORGIANA\IdeaProjects\MyFramework\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.T_Case_1.login_andlogout">
     <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/login.feature" />
@@ -131,18 +146,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="T_Case_1.login_andlogout" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Runner.*" />
+          <option name="PATTERN" value="T_cases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Runner" />
-      <option name="MAIN_CLASS_NAME" value="Runner.TestRunner" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="T_cases" />
+      <option name="MAIN_CLASS_NAME" value="T_cases.T_Case_1" />
+      <option name="METHOD_NAME" value="login_andlogout" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -186,17 +203,17 @@
     <list>
       <item itemvalue="Cucumber Java.Scenario: Login  and Logout test Scenacio" />
       <item itemvalue="Cucumber Java.Feature: login" />
-      <item itemvalue="JUnit.TestRunner" />
+      <item itemvalue="TestNG.T_Case_1.login_andlogout" />
       <item itemvalue="TestNG.T_Case_3.putproductstocart" />
       <item itemvalue="TestNG.T_Case_2.searchingthrough" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.T_Case_1.login_andlogout" />
         <item itemvalue="TestNG.T_Case_3.putproductstocart" />
+        <item itemvalue="TestNG.T_Case_2.searchingthrough" />
         <item itemvalue="Cucumber Java.Feature: login" />
         <item itemvalue="Cucumber Java.Scenario: Login  and Logout test Scenacio" />
-        <item itemvalue="TestNG.T_Case_2.searchingthrough" />
-        <item itemvalue="JUnit.TestRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +282,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687449576032</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Gerkin testcases">
+      <created>1687452001688</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1687452001688</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Gerkin testcases">
+      <created>1687452141254</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1687452141254</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

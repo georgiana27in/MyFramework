@@ -145,7 +145,7 @@ public class T_Case_2 extends TestBase {
         test.log(Status.INFO, "Click on 'gravide' section ");
         logger.info("Click on 'gravide' section ");
 
-        Utils.waitForElementVisible(produseGravide.produs1);
+        Utils.waitForElementToBeClickable(produseGravide.produs1);
         Utils.clickOnButton(produseGravide.produs1);
         test.log(Status.INFO, "Click on  first product ");
         logger.info("Click on  first product");
@@ -243,11 +243,6 @@ public class T_Case_2 extends TestBase {
         Utils.clickOnButton(Homepage.noutatiBtn);
         test.log(Status.INFO, "Click 'Noutati section");
         logger.info( "Click 'Noutati section ");
-
-        Utils.waitForElementLocated(produseNoutati.produs8);
-        Utils.clickOnButton(produseNoutati.produs8);
-        test.log(Status.INFO, "Click on 1st product");
-        logger.info("Click on 1st product");
 
         Utils.waitForElementVisible(Homepage.noutatiBtn);
         Utils.clickOnButton(Homepage.noutatiBtn);

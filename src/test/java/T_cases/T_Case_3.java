@@ -39,11 +39,11 @@ public class T_Case_3 extends TestBase {
         test.log(Status.INFO, "Click on Sign in Button");
         logger.info("Click on Sign in Button");
 
-//        Utils.waitForElementVisible(adaugainCosPage.cartbtn);
-//        Utils.clickOnButton(adaugainCosPage.cartbtn);
-//        Utils.waitForElementToBeClickable(adaugainCosPage.deletefromcart);
-//        Utils.clickOnButton(adaugainCosPage.deletefromcart);
-//        driver.switchTo().alert().accept();
+        Utils.waitForElementVisible(adaugainCosPage.cartbtn);
+        Utils.clickOnButton(adaugainCosPage.cartbtn);
+        Utils.waitForElementToBeClickable(adaugainCosPage.deletefromcart);
+        Utils.clickOnButton(adaugainCosPage.deletefromcart);
+        driver.switchTo().alert().accept();
 
         Utils.waitForElementVisible(Homepage.gravideBtn);
         Utils.clickOnButton(Homepage.gravideBtn);
@@ -56,7 +56,7 @@ public class T_Case_3 extends TestBase {
 
         Utils.waitForElementVisible(Homepage.gravideBtn);
         Utils.clickOnButton(Homepage.gravideBtn);
-        Utils.waitForElementVisible(produseGravide.produs2);
+
         Utils.clickOnButton(produseGravide.produs2);
         Utils.waitForElementVisible(adaugainCosPage.addcartp2);
         Utils.clickOnButton(adaugainCosPage.addcartp2);
@@ -65,7 +65,6 @@ public class T_Case_3 extends TestBase {
 
         Utils.waitForElementVisible(Homepage.gravideBtn);
         Utils.clickOnButton(Homepage.gravideBtn);
-        Utils.waitForElementVisible(produseGravide.produs3);
         Utils.clickOnButton(produseGravide.produs3);
         Utils.waitForElementVisible(adaugainCosPage.addcartp3);
         Utils.clickOnButton(adaugainCosPage.addcartp3);
@@ -74,13 +73,11 @@ public class T_Case_3 extends TestBase {
 
         Utils.waitForElementVisible(Homepage.gravideBtn);
         Utils.clickOnButton(Homepage.gravideBtn);
-        Utils.waitForElementVisible(produseGravide.produs4);
-        Utils.clickOnButton(produseGravide.produs4);
-        Utils.waitForElementVisible(adaugainCosPage.addcartp4);
-        Utils.clickOnButton(adaugainCosPage.addcartp4);
-        test.log(Status.INFO, "Click on Gravide section , then click on 4th product and put it in the cart");
-        logger.info("Click on Gravide section , then click on 4th product and put it in the cart");
-
+        Utils.waitForElementVisible(adaugainCosPage.cartbtn);
+        Utils.clickOnButton(adaugainCosPage.cartbtn);
+        Utils.waitForElementVisible(adaugainCosPage.deletefromcart);
+        Utils.clickOnButton(adaugainCosPage.deletefromcart);
+        driver.switchTo().alert().accept();
 
 
     }}

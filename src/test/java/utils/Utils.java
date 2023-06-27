@@ -3,16 +3,16 @@ package utils;
 import Base.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.ui.*;
 
 
 import java.io.IOException;
 import java.time.Duration;
 import java.util.Iterator;
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.Set;
 public class Utils extends TestBase {
 
@@ -27,9 +27,21 @@ public class Utils extends TestBase {
     }
 
     public static void clickOnButton(By locator) {
+        Wait<WebDriver> wait = new FluentWait<>(driver)
+                .withTimeout(Duration.ofSeconds(30))
+                .ignoring(NoSuchElementException.class);
         WebElement element = driver.findElement(locator);
         element.click();
     }
+//    public static void click(WebDriver driver, By by, int timeout) {
+//        Wait<WebDriver> wait = new FluentWait<>(driver)
+//                .withTimeout(Duration.ofSeconds(timeout))
+//                .ignoring(NoSuchElementException.class);
+//        WebElement element = driver.findElement(locator);
+//        element.click();
+
+
+
     public String getText(By locator) {
         WebElement element = driver.findElement(locator);
         return element.getText();
