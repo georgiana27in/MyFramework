@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 public class produseFetite {
     public static By partyF = By.cssSelector("img[alt='Articole de Petrecere']");
     public static By toysF = By.cssSelector("img[alt='Jucarii Copii']");
-    public static By electronicsF = By.cssSelector("[alt='Kids\\' Electronics']");
+    public static By electronicsF = By.xpath("//*[@id=\"content\"]/div[1]/ul/li[3]/a");
     public static By strollerF = By.cssSelector("img[alt='Carucioare Copii']");
     public static By carseatF = By.cssSelector("img[alt='Scaune Auto Copii']");
     public static By babyroomF = By.cssSelector("img[alt='Camera copilului']");

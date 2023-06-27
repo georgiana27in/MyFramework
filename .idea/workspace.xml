@@ -5,28 +5,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1408554e-5b60-424f-ae22-33abcfeaa3ac" name="Changes" comment="changes">
-      <change afterPath="$PROJECT_DIR$/reports/report_27-06-2023 18-22-14.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_27-06-2023 18-28-18.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_27-06-2023 18-30-50.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_27-06-2023 18-34-46.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_27-06-2023 18-37-00.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_27-06-2023 18-40-45.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_27-06-2023 18-49-42.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_27-06-2023 18-51-58.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_27-06-2023 18-55-35.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_27-06-2023 18-59-44.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_27-06-2023 19-01-47.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_27-06-2023 19-02-29.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_27-06-2023 19-03-06.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_27-06-2023 19-05-08.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_27-06-2023 19-08-15.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/T_cases/T_Case_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Jucariideexterior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/leaganecopii.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/wishlist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/T_cases/T_Case_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/T_cases/T_Case_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_16-06-2023 16-54-19.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_20-06-2023 20-19-46.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_20-06-2023 20-27-05.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_20-06-2023 20-29-39.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_20-06-2023 20-31-54.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_20-06-2023 20-34-14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_20-06-2023 20-35-43.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_20-06-2023 20-36-50.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_20-06-2023 20-37-43.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_20-06-2023 20-38-49.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_20-06-2023 20-40-26.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_20-06-2023 20-43-07.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_20-06-2023 20-44-44.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_20-06-2023 20-48-41.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_22-06-2023 19-50-18.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_22-06-2023 19-52-34.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_22-06-2023 19-57-40.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_22-06-2023 20-00-26.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_22-06-2023 20-03-33.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_22-06-2023 20-04-55.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_22-06-2023 20-18-15.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_22-06-2023 20-21-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/report_27-06-2023 20-50-10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_22-06-2023 20-22-40.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_22-06-2023 20-25-24.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_22-06-2023 20-27-29.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/report_27-06-2023 20-52-26.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_22-06-2023 20-29-32.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_22-06-2023 20-32-50.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_22-06-2023 20-36-35.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_22-06-2023 20-38-36.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_22-06-2023 20-41-38.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_22-06-2023 20-52-04.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_22-06-2023 20-54-21.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_22-06-2023 20-56-04.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_27-06-2023 18-15-51.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/report_27-06-2023 20-37-06.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_27-06-2023 18-22-14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_27-06-2023 18-28-18.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/report_27-06-2023 20-47-54.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_27-06-2023 18-30-50.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_27-06-2023 18-34-46.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_27-06-2023 18-37-00.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_27-06-2023 18-40-45.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_27-06-2023 18-49-42.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/report_27-06-2023 20-45-06.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_27-06-2023 18-51-58.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_27-06-2023 18-55-35.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_27-06-2023 18-59-44.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_27-06-2023 19-01-47.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_27-06-2023 19-02-29.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_27-06-2023 19-03-06.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_27-06-2023 19-05-08.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_27-06-2023 19-08-15.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_27-06-2023 19-12-47.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_27-06-2023 19-16-09.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/T_cases/T_Case_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/T_cases/T_Case_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/T_cases/T_Case_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/T_cases/T_Case_3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/Homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Homepage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/produseGravide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/produseGravide.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/adaugainCosPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/adaugainCosPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/produseFetite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/produseFetite.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,48 +143,11 @@
       <recent name="C:\Users\GEORGIANA\IdeaProjects\MyFramework\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.T_Case_3.putproductstocart">
-    <configuration name="C:/Users/GEORGIANA/AppData/Local/JetBrains/IdeaIC2022.3/temp-testng-customsuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MyFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="T_cases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="$USER_HOME$/AppData/Local/JetBrains/IdeaIC2022.3/temp-testng-customsuite.xml" />
-      <option name="PACKAGE_NAME" value="T_cases" />
-      <option name="MAIN_CLASS_NAME" value="T_cases.T_Case_1" />
-      <option name="METHOD_NAME" value="login_andlogout" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.T_Case_4.addToWishlist">
     <configuration name="C:/Users/GEORGIANA/IdeaProjects/MyFramework/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyFramework" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T_Case_1.login_andlogout" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MyFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="T_cases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="T_cases" />
-      <option name="MAIN_CLASS_NAME" value="T_cases.T_Case_1" />
-      <option name="METHOD_NAME" value="login_andlogout" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -188,20 +190,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="T_Case_4" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="T_cases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="T_cases" />
+      <option name="MAIN_CLASS_NAME" value="T_cases.T_Case_4" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T_Case_4.addToWishlist" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="T_cases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="T_cases" />
+      <option name="MAIN_CLASS_NAME" value="T_cases.T_Case_4" />
+      <option name="METHOD_NAME" value="addToWishlist" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="TestNG.C:/Users/GEORGIANA/AppData/Local/JetBrains/IdeaIC2022.3/temp-testng-customsuite.xml" />
       <item itemvalue="TestNG.C:/Users/GEORGIANA/IdeaProjects/MyFramework/src/test/resources/testng.xml" />
-      <item itemvalue="TestNG.T_Case_1.login_andlogout" />
+      <item itemvalue="TestNG.T_Case_4" />
+      <item itemvalue="TestNG.T_Case_4.addToWishlist" />
       <item itemvalue="TestNG.T_Case_3.putproductstocart" />
       <item itemvalue="TestNG.T_Case_2.searchingthrough" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.T_Case_4.addToWishlist" />
+        <item itemvalue="TestNG.T_Case_4" />
+        <item itemvalue="TestNG.T_Case_2.searchingthrough" />
         <item itemvalue="TestNG.T_Case_3.putproductstocart" />
         <item itemvalue="TestNG.C:/Users/GEORGIANA/IdeaProjects/MyFramework/src/test/resources/testng.xml" />
-        <item itemvalue="TestNG.C:/Users/GEORGIANA/AppData/Local/JetBrains/IdeaIC2022.3/temp-testng-customsuite.xml" />
-        <item itemvalue="TestNG.T_Case_1.login_andlogout" />
-        <item itemvalue="TestNG.T_Case_2.searchingthrough" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687879341333</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="changes">
+      <created>1687882861829</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1687882861829</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

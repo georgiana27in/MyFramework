@@ -16,6 +16,9 @@ public class Homepage {
     public static By noutatiBtn = By.cssSelector("ul#megamenu  a[title='Noutati']");
     public static By BranduriBtn = By.cssSelector("a[title='Branduri']");
     public static By returntoHomePage = By.xpath("/html//div[@id='header']/div[@class='inner']//a[@title='Nichiduta']");
+    public static By jucariideexterior = By.cssSelector("a[title='Jucarii De Exterior']");
+    public static By wishlist=By.cssSelector(".drop_button.wishlist_menu > .counter");
+    public static By veziwishlist=By.cssSelector("a[title='Vezi produsele']");
 }
 
 

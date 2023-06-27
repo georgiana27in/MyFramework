@@ -9,7 +9,7 @@ import utils.Utils;
 public class T_Case_3 extends TestBase {
     @Test
     public void putproductstocart() throws InterruptedException {
-        test = extent.createTest(" Log in ;Putting products to cart ; Log out", "Case3 : User verifies if he can log in and put products to cart")
+        test = extent.createTest("Putting products to cart and deleting products from cart ", "Case3 : User verifies if he can log in and put products to cart")
                 .assignCategory("Functional.testcase")
                 .assignAuthor("NiculaeGeorgiana");
         logger.info("Verify URL");
@@ -45,7 +45,7 @@ public class T_Case_3 extends TestBase {
 
         Utils.clickOnButton(Homepage.gravideBtn);
         Utils.clickOnButton(produseGravide.produs2);
-        Utils.clickOnButton(adaugainCosPage.addcartp2);
+        Utils.clickOnButton(adaugainCosPage.addcartp1);
         test.log(Status.INFO, "Click on Gravide section , then click on 2nd product and put it in the cart");
         logger.info("Click on Gravide section , then click on 2nd product and put it in the cart");
 
@@ -58,7 +58,7 @@ public class T_Case_3 extends TestBase {
         Utils.waitForElementVisible(Homepage.gravideBtn);
         Utils.clickOnButton(Homepage.gravideBtn);
         Utils.clickOnButton(produseGravide.produs3);
-        Utils.clickOnButton(adaugainCosPage.addcartp3);
+        Utils.clickOnButton(adaugainCosPage.addcartp1);
         test.log(Status.INFO, "Click on Gravide section , then click on 3rd product and put it in the cart");
         logger.info("Click on Gravide section , then click on 3rd product and put it in the cart");
 

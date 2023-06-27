@@ -9,7 +9,7 @@ import utils.Utils;
 public class T_Case_2 extends TestBase {
     @Test()
     public void searchingthrough()  {
-        test= extent.createTest("Searching through the site, log in and log out ","Case2 : User verifies if he can search some products and if all the buttons are functional" )
+        test= extent.createTest("Searching through the site ","Case2 : User verifies if he can search some products and if all the buttons are functional" )
                 .assignCategory("Functional.testcase")
                 .assignAuthor("NiculaeGeorgiana");
         logger.info("Verify URL");
