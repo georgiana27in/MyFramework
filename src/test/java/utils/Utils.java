@@ -1,19 +1,27 @@
 package utils;
 
 import Base.TestBase;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.*;
 
 
+import javax.swing.plaf.basic.BasicSliderUI;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.Iterator;
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Set;
+
+import static java.awt.SystemColor.scrollbar;
+import static java.awt.SystemColor.window;
+
 public class Utils extends TestBase {
 
     public static void enterText(By locator, String text) {
@@ -107,6 +115,9 @@ public class Utils extends TestBase {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
         wait.until(ExpectedConditions.presenceOfElementLocated(locator));
     }
-
+public static void Scroll(){
+    JavascriptExecutor js = (JavascriptExecutor) driver;
+    js.executeScript("window.scrollBy(0,500)", "");
+}
 
 }

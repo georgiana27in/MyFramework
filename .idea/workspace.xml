@@ -4,7 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1408554e-5b60-424f-ae22-33abcfeaa3ac" name="Changes" comment="changes" />
+    <list default="true" id="1408554e-5b60-424f-ae22-33abcfeaa3ac" name="Changes" comment="changes">
+      <change afterPath="$PROJECT_DIR$/reports/report_29-06-2023 18-32-05.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/report_29-06-2023 19-03-13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/report_29-06-2023 19-04-28.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/report_29-06-2023 19-06-29.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/report_29-06-2023 19-07-23.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/report_29-06-2023 19-11-26.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/report_29-06-2023 20-03-04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/report_29-06-2023 20-04-13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/report_29-06-2023 20-17-05.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/report_29-06-2023 20-38-26.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/report_29-06-2023 20-39-37.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/report_29-06-2023 20-41-43.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/report_29-06-2023 20-42-45.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/T_cases/T_Case_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/jucariicopiifilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Homepage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/NewaccountPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/produseBaieti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/produseBaieti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Utils.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,31 +104,16 @@
       <recent name="C:\Users\GEORGIANA\IdeaProjects\MyFramework\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.T_Case_4.addToWishlist">
-    <configuration name="C:/Users/GEORGIANA/IdeaProjects/MyFramework/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MyFramework" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T_Case_2.searchingthrough" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.T_Case_5">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="MyFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="T_cases.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="T_cases" />
-      <option name="MAIN_CLASS_NAME" value="T_cases.T_Case_2" />
-      <option name="METHOD_NAME" value="searchingthrough" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,7 +153,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T_Case_4.addToWishlist" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T_Case_5" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyFramework" />
       <extension name="coverage">
         <pattern>
@@ -154,8 +162,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="T_cases" />
-      <option name="MAIN_CLASS_NAME" value="T_cases.T_Case_4" />
-      <option name="METHOD_NAME" value="addToWishlist" />
+      <option name="MAIN_CLASS_NAME" value="T_cases.T_Case_5" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T_Case_5.Filtering" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="T_cases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="T_cases" />
+      <option name="MAIN_CLASS_NAME" value="T_cases.T_Case_5" />
+      <option name="METHOD_NAME" value="Filtering" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -164,19 +189,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.C:/Users/GEORGIANA/IdeaProjects/MyFramework/src/test/resources/testng.xml" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="TestNG.T_Case_5" />
+      <item itemvalue="TestNG.T_Case_5.Filtering" />
       <item itemvalue="TestNG.T_Case_4" />
-      <item itemvalue="TestNG.T_Case_4.addToWishlist" />
       <item itemvalue="TestNG.T_Case_3.putproductstocart" />
-      <item itemvalue="TestNG.T_Case_2.searchingthrough" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.T_Case_4.addToWishlist" />
-        <item itemvalue="TestNG.T_Case_4" />
-        <item itemvalue="TestNG.T_Case_2.searchingthrough" />
+        <item itemvalue="TestNG.T_Case_5" />
+        <item itemvalue="TestNG.T_Case_5.Filtering" />
         <item itemvalue="TestNG.T_Case_3.putproductstocart" />
-        <item itemvalue="TestNG.C:/Users/GEORGIANA/IdeaProjects/MyFramework/src/test/resources/testng.xml" />
+        <item itemvalue="TestNG.T_Case_4" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687888927278</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="changes">
+      <created>1688052609112</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1688052609112</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -313,5 +345,20 @@
     <MESSAGE value="Gerkin testcases" />
     <MESSAGE value="changes" />
     <option name="LAST_COMMIT_MESSAGE" value="changes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/T_cases/T_Case_5.java</url>
+          <line>10</line>
+          <properties class="T_cases.T_Case_5" method="Filtering">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -16,6 +16,6 @@ public class produseBaieti {
     public static By schoolB = By.cssSelector("img[alt='Gradinita Si Scoala']");
     public static By babyfoodB = By.cssSelector("img[alt='Hrana bebelusi si copii']");
     public static By chlotesB = By.cssSelector("img[alt='Haine si incaltaminte']");
-
+    public static By produspapusimana=By.cssSelector("a:nth-of-type(1) > img[alt='Set 6 papusi de mana Animale de la ferma Melissa & Doug']");
 
 }
