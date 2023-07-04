@@ -2,6 +2,7 @@ package utils;
 
 import Base.TestBase;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -23,6 +24,8 @@ import static java.awt.SystemColor.scrollbar;
 import static java.awt.SystemColor.window;
 
 public class Utils extends TestBase {
+
+    public static Object AssertFunction;
 
     public static void enterText(By locator, String text) {
         WebElement element = driver.findElement(locator);
@@ -119,5 +122,11 @@ public static void Scroll(){
     JavascriptExecutor js = (JavascriptExecutor) driver;
     js.executeScript("window.scrollBy(0,500)", "");
 }
-
+public void AssertFunction(){
+        String ActualURL = driver.getCurrentUrl();
+        String ExpectedURL ="https://www.nichiduta.ro/";
+    Assert.assertEquals(ExpectedURL,ActualURL);
 }
+    }
+
+

@@ -16,4 +16,14 @@
             <class name="T_cases.T_Case_3"/>
         </classes>
     </test>
+    <test name="Chrometest3" enabled="true">
+        <classes>
+            <class name="T_cases.T_Case_4"/>
+        </classes>
+    </test>
+    <test name="Chrometest4" enabled="true">
+        <classes>
+            <class name="T_cases.T_Case_5"/>
+        </classes>
+    </test>
 </suite>
