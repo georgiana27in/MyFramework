@@ -10,6 +10,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.*;
+import pages.Homepage;
 
 
 import javax.swing.plaf.basic.BasicSliderUI;
@@ -109,10 +110,12 @@ public class Utils extends TestBase {
 
     }
 
-    public static void waitForElementToBeClickable(By locator) {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-        wait.until(ExpectedConditions.elementToBeClickable(locator));
-    }
+//    public static void skipcampanie (){
+//        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+//       for (wait.until(ExpectedConditions.urlMatches("https://www.nichiduta.ro/campanie"))){
+//               Utils.clickOnButton(Homepage.RETURNbtn)}
+//
+//    }
 
     public  static void waitForElementLocated(By locator) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -122,11 +125,8 @@ public static void Scroll(){
     JavascriptExecutor js = (JavascriptExecutor) driver;
     js.executeScript("window.scrollBy(0,500)", "");
 }
-public void AssertFunction(){
-        String ActualURL = driver.getCurrentUrl();
-        String ExpectedURL ="https://www.nichiduta.ro/";
-    Assert.assertEquals(ExpectedURL,ActualURL);
-}
+
+
     }
 
 

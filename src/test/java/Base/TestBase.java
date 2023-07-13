@@ -9,6 +9,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.junit.Assert;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxDriverLogLevel;
@@ -17,6 +18,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
+import pages.Homepage;
 import utils.Utils;
 
 import java.io.FileNotFoundException;
@@ -132,5 +134,12 @@ public class TestBase {
 
         }
     }
-
+    public void AssertFunction(){
+        String ActualURL = driver.getCurrentUrl();
+        String ExpectedURL ="https://www.nichiduta.ro/";
+        Assert.assertEquals(ExpectedURL,ActualURL);
+if(ActualURL=="https://www.nichiduta.ro/campanie/"){
+            Utils.clickOnButton(Homepage.RETURNbtn);
+}
+    }
 }

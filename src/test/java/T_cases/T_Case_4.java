@@ -7,6 +7,8 @@ import org.testng.asserts.IAssert;
 import pages.*;
 import utils.Utils;
 
+import static utils.Utils.AssertFunction;
+
 public class T_Case_4 extends TestBase {
 
     @Test()
@@ -16,8 +18,8 @@ public class T_Case_4 extends TestBase {
                 .assignAuthor("NiculaeGeorgiana");
         logger.info("Verify URL");
         openURL("https://www.nichiduta.ro/");
-
-//        Utils.clickOnButton(Homepage.RETURNbtn);
+//        AssertFunction(); , o idee , nu a mers!
+        Utils.clickOnButton(Homepage.RETURNbtn);
         Utils.clickOnButton(Homepage.accountBtn);
         Utils.clickOnButton(Homepage.intraINcontBtn);
         test.log(Status.INFO, "Click on Account button and click on enter account button ");
@@ -56,23 +58,28 @@ public class T_Case_4 extends TestBase {
         Utils.clickOnButton(wishlist.Addtocartwish1);
         test.log(Status.INFO, "Add first product from wishlist to cart");
         logger.info("Add first product from wishlist to cart");
-        Utils.clickOnButton(wishlist.Addtocartwish1);
-        test.log(Status.INFO, "Add second product from wishlist to cart");
-        logger.info("Add second product from wishlist to cart");
-        Utils.clickOnButton(wishlist.Addtocartwish1);
-        test.log(Status.INFO, "Add third product from wishlist to cart");
-        logger.info("Add third product from wishlist to cart");
         Utils.clickOnButton(adaugainCosPage.cartbtn);
         Utils.clickOnButton(adaugainCosPage.deletefromcart);
         driver.switchTo().alert().accept();
         test.log(Status.INFO, "delete first product from cart");
         logger.info("Delete first product from cart");
+        Utils.clickOnButton(Homepage.wishlist);
+        Utils.clickOnButton(Homepage.veziwishlist);
+        Utils.clickOnButton(wishlist.Addtocartwish1);
+        test.log(Status.INFO, "Add second product from wishlist to cart");
+        logger.info("Add second product from wishlist to cart");
 
         Utils.clickOnButton(adaugainCosPage.cartbtn);
         Utils.clickOnButton(adaugainCosPage.deletefromcartp2);
         driver.switchTo().alert().accept();
         test.log(Status.INFO, "delete second product from cart");
         logger.info("Delete second product from cart");
+        Utils.clickOnButton(Homepage.wishlist);
+        Utils.clickOnButton(Homepage.veziwishlist);
+        Utils.clickOnButton(wishlist.Addtocartwish1);
+        test.log(Status.INFO, "Add third product from wishlist to cart");
+        logger.info("Add third product from wishlist to cart");
+
 
         Utils.clickOnButton(adaugainCosPage.cartbtn);
         Utils.clickOnButton(adaugainCosPage.deletefromcartp3);

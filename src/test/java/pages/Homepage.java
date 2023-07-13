@@ -15,11 +15,12 @@ public class Homepage {
     public static By OFspecialeBtn = By.cssSelector("ul#megamenu  a[title='Oferte speciale']");
     public static By noutatiBtn = By.cssSelector("ul#megamenu  a[title='Noutati']");
     public static By BranduriBtn = By.cssSelector("a[title='Branduri']");
-    public static By returntoHomePage = By.xpath("/html//div[@id='header']/div[@class='inner']//a[@title='Nichiduta']");
+    public static By returntoHomePage = By.cssSelector("a#logo");
     public static By jucariideexterior = By.cssSelector("a[title='Jucarii De Exterior']");
     public static By wishlist=By.cssSelector(".drop_button.wishlist_menu > .counter");
     public static By veziwishlist=By.cssSelector("a[title='Vezi produsele']");
     public static By jucariicopii=By.cssSelector("a[title='Jucarii Copii']");
+    public static By returnB=By.cssSelector("//*[@id=\"header\"]/div/div[4]/div[1]/div[1]/a");
 }
 
 

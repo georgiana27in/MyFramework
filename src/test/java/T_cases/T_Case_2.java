@@ -14,7 +14,7 @@ public class T_Case_2 extends TestBase {
                 .assignAuthor("NiculaeGeorgiana");
         logger.info("Verify URL");
         openURL("https://www.nichiduta.ro/");
-        Utils.clickOnButton(Homepage.returntoHomePage);
+        Utils.clickOnButton(Homepage.RETURNbtn);
         Utils.clickOnButton(Homepage.accountBtn);
         Utils.clickOnButton(Homepage.intraINcontBtn);
         test.log(Status.INFO, "Click on Account button and click on enter account button ");
@@ -99,8 +99,6 @@ public class T_Case_2 extends TestBase {
         test.log(Status.INFO, "Return to 'Fetite' section ");
         logger.info("Return to 'Fetite' section ");
 
-        Utils.clickOnButton(Homepage.returntoHomePage);
-
         Utils.clickOnButton(Homepage.baietiBtn);
         test.log(Status.INFO, "Click on 'Baieti' section ");
         logger.info("Click on 'Baieti' section ");
@@ -108,8 +106,6 @@ public class T_Case_2 extends TestBase {
         Utils.clickOnButton(produseBaieti.electronicsB);
         test.log(Status.INFO, "Click on 'kids electronics' section ");
         logger.info("Click on 'kids electronics' section ");
-
-        Utils.clickOnButton(Homepage.returntoHomePage);
 
         Utils.clickOnButton(Homepage.gravideBtn);
         test.log(Status.INFO, "Click on 'gravide' section ");
