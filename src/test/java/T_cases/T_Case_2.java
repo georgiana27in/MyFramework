@@ -111,9 +111,6 @@ public class T_Case_2 extends TestBase {
         test.log(Status.INFO, "Click on 'gravide' section ");
         logger.info("Click on 'gravide' section ");
 
-        Utils.clickOnButton(produseGravide.produs1);
-        test.log(Status.INFO, "Click on  first product ");
-        logger.info("Click on  first product");
 
         Utils.clickOnButton(Homepage.colectiiBtn);
         test.log(Status.INFO, "Click on  'Colectii' section ");
@@ -158,9 +155,6 @@ public class T_Case_2 extends TestBase {
         test.log(Status.INFO, "Click 'JUCARII COPII'");
         logger.info( "Click 'JUCARII COPII'");
 
-        Utils.clickOnButton(produseofertespeciale.produs7);
-        test.log(Status.INFO, "Click on 1 product");
-        logger.info("Click on 1 product");
 
         Utils.clickOnButton(Homepage.OFspecialeBtn);
         test.log(Status.INFO, "Return to 'oferte speciale' section");

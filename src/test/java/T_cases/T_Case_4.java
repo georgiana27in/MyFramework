@@ -13,7 +13,8 @@ public class T_Case_4 extends TestBase {
 
     @Test()
     public void addToWishlist(){
-        test= extent.createTest("Adding products to wishlist","Case4 : User verifies if he add products to wishlist for latter adding them to cart" )
+        test= extent.createTest("Adding products to wishlist","Case4 : User verifies if he add products to" +
+                        " wishlist for latter adding them to cart" )
                 .assignCategory("Functional.testcase")
                 .assignAuthor("NiculaeGeorgiana");
         logger.info("Verify URL");

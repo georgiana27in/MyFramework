@@ -9,7 +9,8 @@ import utils.Utils;
 public class T_Case_3 extends TestBase {
     @Test
     public void putproductstocart() throws InterruptedException {
-        test = extent.createTest("Putting products to cart and deleting products from cart ", "Case3 : User verifies if he can log in and put products to cart")
+        test = extent.createTest("Putting products to cart and deleting products from cart ",
+                        "Case3 : User verifies if he can log in and put products to cart")
                 .assignCategory("Functional.testcase")
                 .assignAuthor("NiculaeGeorgiana");
         logger.info("Verify URL");
