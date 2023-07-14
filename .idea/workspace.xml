@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1408554e-5b60-424f-ae22-33abcfeaa3ac" name="Changes" comment="changes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/report_04-07-2023 18-23-03.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_04-07-2023 18-23-03.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/report_13-07-2023 20-48-59.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/report_04-07-2023 18-26-05.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/report_04-07-2023 18-28-06.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/report_04-07-2023 18-30-13.html" beforeDir="false" />
@@ -36,7 +35,7 @@
       <change beforePath="$PROJECT_DIR$/reports/report_06-07-2023 20-20-02.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/report_06-07-2023 20-28-17.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/report_06-07-2023 20-34-06.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/report_06-07-2023 20-34-42.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/report_13-07-2023 20-18-04.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_06-07-2023 20-34-42.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/report_06-07-2023 20-36-12.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/report_06-07-2023 20-38-36.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/report_06-07-2023 20-41-14.html" beforeDir="false" />
@@ -77,12 +76,6 @@
       <change beforePath="$PROJECT_DIR$/reports/report_29-06-2023 20-54-43.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/report_29-06-2023 20-59-03.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/report_29-06-2023 21-00-54.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/T_cases/T_Case_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/T_cases/T_Case_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/T_cases/T_Case_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/T_cases/T_Case_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/T_cases/T_Case_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/T_cases/T_Case_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/T_cases/T_Case_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/T_cases/T_Case_5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/jucariiMuzicalefilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/jucariiMuzicalefilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/produseGravide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/produseGravide.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,11 +233,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.C:/Users/GEORGIANA/IdeaProjects/MyFramework/src/test/resources/testng.xml" />
       <item itemvalue="TestNG.T_Case_1" />
       <item itemvalue="TestNG.T_Case_3" />
-      <item itemvalue="TestNG.T_Case_5" />
-      <item itemvalue="TestNG.C:/Users/GEORGIANA/IdeaProjects/MyFramework/src/test/resources/testng.xml" />
       <item itemvalue="TestNG.T_Case_4" />
+      <item itemvalue="TestNG.T_Case_5" />
     </list>
     <recent_temporary>
       <list>
@@ -370,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689249807290</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="changes">
+      <created>1689270634559</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1689270634559</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
