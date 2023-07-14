@@ -5,18 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1408554e-5b60-424f-ae22-33abcfeaa3ac" name="Changes" comment="changes">
-      <change afterPath="$PROJECT_DIR$/reports/report_14-07-2023 13-56-40.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_14-07-2023 14-00-40.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_14-07-2023 14-02-21.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_14-07-2023 14-16-51.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_14-07-2023 14-18-22.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report_14-07-2023 14-19-25.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/T_cases/T_Case_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/T_cases/T_Case_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/T_cases/T_Case_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/T_cases/T_Case_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/T_cases/T_Case_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/T_cases/T_Case_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/T_cases/T_Case_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/T_cases/T_Case_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/T_cases/T_Case_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/T_cases/T_Case_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_13-07-2023 20-48-59.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_14-07-2023 13-56-40.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_14-07-2023 14-00-40.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_14-07-2023 14-02-21.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_14-07-2023 14-16-51.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_14-07-2023 14-18-22.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_14-07-2023 14-19-25.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report_14-07-2023 14-21-10.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -319,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689331825350</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="changes">
+      <created>1689338138420</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1689338138420</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
