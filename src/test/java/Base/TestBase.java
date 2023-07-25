@@ -15,9 +15,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxDriverLogLevel;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.ITestResult;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.*;
 import pages.Homepage;
 import utils.Utils;
 
@@ -48,16 +46,25 @@ public class TestBase {
     @BeforeSuite(alwaysRun = true)
     public void setUp() throws IOException {
         propertiesLoad();
-
         extentReportSpark();
+
+    }
+    @BeforeTest(alwaysRun = true)
+    public void setUpDriver() throws IOException {
+        propertiesLoad();
         openBrowser();
     }
+
     @AfterSuite(alwaysRun = true)
     public void tearDown()  {
-
-        driver.quit();
         extent.flush();
     }
+    @AfterTest(alwaysRun = true)
+    public void tearDownDriver()  {
+        driver.quit();
+    }
+
+
     @AfterMethod
     public void tearDown(ITestResult result) {
 
@@ -118,7 +125,7 @@ public class TestBase {
 
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
-            System.setProperty("webdriver.chrome.logfile", "./logs/chromeLogs.txt");
+//            System.setProperty("webdriver.chrome.logfile", "./logs/chromeLogs.txt");
             driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
@@ -126,7 +133,7 @@ public class TestBase {
 
             WebDriverManager.firefoxdriver().setup();
             driver = new FirefoxDriver();
-            System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, "./logs/FirefoxLogs.txt");
+//            System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, "./logs/FirefoxLogs.txt");
             FirefoxOptions options = new FirefoxOptions();
             options.setLogLevel(FirefoxDriverLogLevel.TRACE);
             driver.manage().window().maximize();
@@ -138,8 +145,8 @@ public class TestBase {
         String ActualURL = driver.getCurrentUrl();
         String ExpectedURL ="https://www.nichiduta.ro/";
         Assert.assertEquals(ExpectedURL,ActualURL);
-if(ActualURL=="https://www.nichiduta.ro/campanie/"){
+        if(ActualURL=="https://www.nichiduta.ro/campanie/"){
             Utils.clickOnButton(Homepage.RETURNbtn);
-}
+        }
     }
 }

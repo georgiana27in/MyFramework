@@ -40,9 +40,10 @@ public class Utils extends TestBase {
 
     public static void clickOnButton(By locator) {
         Wait<WebDriver> wait = new FluentWait<>(driver)
-                .withTimeout(Duration.ofSeconds(60))
+                .withTimeout(Duration.ofSeconds(30))
+                .pollingEvery(Duration.ofMillis(200))
                 .ignoring(NoSuchElementException.class);
-        WebElement element = driver.findElement(locator);
+        WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(locator));
         element.click();
     }
 //    public static void click(WebDriver driver, By by, int timeout) {
@@ -105,7 +106,10 @@ public class Utils extends TestBase {
     }
 
     public static void waitForElementVisible(By locator) {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+        Wait<WebDriver> wait = new FluentWait<>(driver)
+                .withTimeout(Duration.ofSeconds(30))
+                .pollingEvery(Duration.ofMillis(200))
+                .ignoring(NoSuchElementException.class);
         wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 
     }
@@ -121,12 +125,12 @@ public class Utils extends TestBase {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
         wait.until(ExpectedConditions.presenceOfElementLocated(locator));
     }
-public static void Scroll(){
-    JavascriptExecutor js = (JavascriptExecutor) driver;
-    js.executeScript("window.scrollBy(0,500)", "");
-}
-
-
+    public static void Scroll(){
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollBy(0,600)", "");
     }
+
+
+}
 
 

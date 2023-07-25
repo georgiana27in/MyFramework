@@ -19,7 +19,6 @@ public class T_Case_4 extends TestBase {
                 .assignAuthor("NiculaeGeorgiana");
         logger.info("Verify URL");
         openURL("https://www.nichiduta.ro/");
-//        AssertFunction(); , o idee , nu a mers!
 //        Utils.clickOnButton(Homepage.RETURNbtn);
         Utils.clickOnButton(Homepage.accountBtn);
         Utils.clickOnButton(Homepage.intraINcontBtn);
